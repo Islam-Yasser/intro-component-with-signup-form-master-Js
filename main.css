@@ -1,0 +1,194 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+@media (max-width: 377px) {
+  body {
+    background-image: url(./images/bg-intro-mobile.png);
+    background-color: hsl(0, 100%, 74%);
+    min-height: 100vh;
+  }
+  .main {
+    display: flex;
+    flex-flow: column;
+    margin-top: 5rem;
+  }
+  .one {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .one *,
+  .two * {
+    margin: auto;
+    margin-top: 1rem;
+  }
+  .one .header,
+  .one .para {
+    color: white;
+    text-align: center;
+    inline-size: 20rem;
+  }
+  .two {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    margin: auto;
+  }
+  .two * {
+    width: 100%;
+  }
+  .two .head {
+    background-color: hsl(248, 32%, 49%);
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    box-shadow: rgba(1, 0, 0, 0.2) 0px 8px;
+  }
+  .two .two1 {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    box-shadow: rgba(1, 0, 0, 0.2) 0px 8px;
+    margin-bottom: 20px;
+  }
+  .two1 input {
+    width: 90%;
+    height: 2.5rem;
+    color: rgba(0, 0, 0, 0.67);
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+  .two1 .butn {
+    width: 92%;
+    height: 3.5rem;
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    text-transform: uppercase;
+    margin-left: 5%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-weight: 600;
+    box-shadow: 0 -20px 10px -20px rgba(0, 0, 0, 0.45) inset;
+  }
+  .two1 .font{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    inline-size: 15.25rem;
+    font-size: 10px;
+  }
+  .font .red
+  {
+    color: red;
+    font-weight: 600;
+  }
+}
+/*Desktop*/
+@media (min-width: 376px) {
+  body {
+    background-image: url(./images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+    min-height: 100vh;
+  }
+  .main {
+    display: flex;
+    flex-flow: row;
+    margin-top: 5rem;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+  }
+  .one {
+    width: 90%;
+    margin-top: 5%;
+    margin-left: -155px;
+  }
+  .one *,
+  .two * {
+    margin: auto;
+    margin-top: 1rem;
+  }
+  .one .header {
+    color: white;
+    inline-size: 15rem;
+    margin-left: 3.25rem;
+  }
+  .one .para{
+    inline-size: 31rem;
+    color: white;
+    margin-left: 52px;
+
+
+  }
+  .two {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    margin: auto;
+  }
+  .two * {
+    width: 100%;
+  }
+  .two .head {
+    background-color: hsl(248, 32%, 49%);
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    box-shadow: rgba(1, 0, 0, 0.2) 0px 8px;
+  }
+  .two .two1 {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    box-shadow: rgba(1, 0, 0, 0.2) 0px 8px;
+    margin-bottom: 20px;
+  }
+  .two1 input {
+    width: 90%;
+    height: 2.5rem;
+    color: rgba(0, 0, 0, 0.67);
+    margin-left: 5%;
+    margin-top: 5%;
+    
+  }
+  .two1 .butn {
+    
+    width: 92%;
+    height: 3.5rem;
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    text-transform: uppercase;
+    margin-left: 5%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-weight: 600;
+    box-shadow: 0 -20px 10px -20px rgba(0, 0, 0, 0.45) inset;
+  }
+  .two1 .font{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-size: 10px;
+  }
+  .font .red
+  {
+    color: red;
+    font-weight: 600;
+  }
+}
